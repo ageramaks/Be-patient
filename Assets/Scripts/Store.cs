@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public  class Store : MonoBehaviour
 {
     private int _id;
-
+    
     public int Id
     {
         get { return _id; }
         set 
         { 
-          if(value <= _products.Length)
+         if(value <= _products.Length)
             {
                 _id = value;
             }
@@ -25,19 +26,23 @@ public  class Store : MonoBehaviour
         new Item(100f,"milk"),
         new Item(70f,"doshik"),
         };
-    private void Start()
-    {
-        
-    }
+   
     public void Buy(int id)
     {
-        PlayerPref.products.Add(_products[id]);
-        Debug.Log("добавлен предмет " + _products[id].Name);
+        if(_products[id].Coast <= PlayerPref.MoneyCard)
+        {
+            Fridge.Add(_products[id]);
+            
+            PlayerPref.MoneyCard -= _products[id].Coast;
+        }
+        else
+        {
+            Debug.Log("Не хватает денег");
+        }
+
+
     }
 
 
-    private void CheckCoast()
-    {
-        
-    }
+    
 }
