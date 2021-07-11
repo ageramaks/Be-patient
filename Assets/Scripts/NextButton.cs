@@ -7,6 +7,7 @@ public class NextButton : MonoBehaviour
 {
     
     [SerializeField] private GameObject[] _gameObjects;
+    [SerializeField] private GameObject _notif;
     private void Start()
     {
         
@@ -19,6 +20,7 @@ public class NextButton : MonoBehaviour
         {
             Menu.ClickAble = true;
             gameObject.SetActive(false);
+            _notif.SetActive(true);
 
         }
         _gameObjects[count].SetActive(false);
