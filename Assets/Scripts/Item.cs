@@ -5,7 +5,14 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     private float _ñoast;
+    private string _name;
     public float Coast { get { return _ñoast; } }
+    public string Name { get { return _name; } }
 
+    public Item(float coast, string name)
+    {
+        _name = name;
+        _ñoast = coast;
+    }
     
 }
