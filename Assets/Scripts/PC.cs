@@ -2,18 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PC : MonoBehaviour
+public static class PC
 {
-    
-    [SerializeField] private Menu _menu;
-    [SerializeField] private Canvas _canvas;
-    private void OnMouseDown()
+    private static bool _clickAble = false;
+
+    public static bool ClickAble
     {
-        if (Menu.ClickAble)
-        {
-            _canvas.gameObject.SetActive(!_canvas.gameObject.activeSelf);
-            _menu.gameObject.SetActive(!_menu.gameObject.activeSelf);
-           
-        }
+        get { return _clickAble; }
+        set { _clickAble = value; }
     }
 }

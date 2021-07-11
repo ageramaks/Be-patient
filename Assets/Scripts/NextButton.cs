@@ -17,7 +17,7 @@ public class NextButton : MonoBehaviour
     {
         if (count == _gameObjects.Length)
         {
-            Menu.ClickAble = true;
+            PC.ClickAble = true;
             gameObject.SetActive(false);
 
         }

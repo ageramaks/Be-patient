@@ -8,5 +8,5 @@ public static class PlayerPref
     
     public static float Money { get { return _money; } set { _money = value; } }
 
-    
+    public static List<Item> products = new List<Item>();
 }
