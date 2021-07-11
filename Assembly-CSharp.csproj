@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Store.cs" />
     <Compile Include="Assets\Scripts\PlayerPref.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Fridge.cs" />
+    <Compile Include="Assets\Scripts\PC.cs" />
     <Compile Include="Assets\Scripts\ColorHovering.cs" />
-    <Compile Include="Assets\Scripts\OpenMenu.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\NextButton.cs" />
-    <Compile Include="Assets\Scripts\PC.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
