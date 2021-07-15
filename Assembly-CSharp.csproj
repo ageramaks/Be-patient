@@ -36,20 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
-     <Compile Include="Assets\Scripts\Attributes\ColorHovering.cs" />
-     <Compile Include="Assets\Scripts\Attributes\SkipDay.cs" />
-     <Compile Include="Assets\Scripts\Menu\Menu.cs" />
-     <Compile Include="Assets\Scripts\PC\Store.cs" />
-     <Compile Include="Assets\Scripts\InfoPanel.cs" />
-     <Compile Include="Assets\Scripts\Fridge\Fridge.cs" />
-     <Compile Include="Assets\Scripts\Player\Test.cs" />
-     <Compile Include="Assets\Scripts\Fridge\FridgeCell.cs" />
-     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Fridge\Item.cs" />
-     <Compile Include="Assets\Scripts\Attributes\PlayerPref.cs" />
-     <Compile Include="Assets\Scripts\PC\PC.cs" />
+     <Compile Include="Assets\Animates\Scripts\Menu\NextButton.cs" />
+     <Compile Include="Assets\Animates\Scripts\Attributes\ColorHovering.cs" />
+     <Compile Include="Assets\Animates\Scripts\Attributes\SkipDay.cs" />
+     <Compile Include="Assets\Animates\Scripts\Menu\Menu.cs" />
+     <Compile Include="Assets\Animates\Scripts\PC\Store.cs" />
+     <Compile Include="Assets\Animates\Scripts\InfoPanel.cs" />
+     <Compile Include="Assets\Animates\Scripts\Fridge\Fridge.cs" />
+     <Compile Include="Assets\Animates\Scripts\Player\Test.cs" />
+     <Compile Include="Assets\Animates\Scripts\Fridge\FridgeCell.cs" />
+     <Compile Include="Assets\Animates\Scripts\Menu\MainMenu.cs" />
+     <Compile Include="Assets\Animates\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Animates\Scripts\Fridge\Item.cs" />
+     <Compile Include="Assets\Animates\Scripts\Attributes\PlayerPref.cs" />
+     <Compile Include="Assets\Animates\Scripts\PC\PC.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
