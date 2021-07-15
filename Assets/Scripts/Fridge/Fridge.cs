@@ -11,7 +11,7 @@ public class Fridge : MonoBehaviour
     [SerializeField] private Image[] _FridgeInventoryCells;
     private static int _maximumCell = 6;
   
-    private static List<Item> _products = new List<Item>();
+    [HideInInspector]public static List<Item> _products = new List<Item>();
     private static int _cell = 0;
 
     private static bool _checkSell = false;
@@ -23,8 +23,6 @@ public class Fridge : MonoBehaviour
             _canvas.gameObject.SetActive(!_canvas.gameObject.activeSelf);
             _menu.gameObject.SetActive(!_menu.gameObject.activeSelf);
 
-            
-           
 
 
 

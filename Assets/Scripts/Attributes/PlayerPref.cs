@@ -15,6 +15,7 @@ public  class PlayerPref : MonoBehaviour
     
     public static int Day { get { return _day; } set { _day = value; } }
     public static float MoneyCard { get { return _moneyCard; } set { _moneyCard = value; } }
+    public static float MoneyCash{ get { return _moneyCash; } set { _moneyCash = value; } }
     private void Update()
     {
         _moneyInfo.text = $"Кошелек: {_moneyCash}Р | Карта: {_moneyCard}Р";

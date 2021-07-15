@@ -29,6 +29,7 @@ public  class Store : MonoBehaviour
    
     public void Buy(int id)
     {
+        
         if(_products[id].Coast <= PlayerPref.MoneyCard)
         {
             Fridge.Add(_products[id]);
