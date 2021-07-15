@@ -67,8 +67,9 @@
     <Compile Include="Assets\Scripts\PC\PC.cs" />
     <Compile Include="Assets\Scripts\Attributes\ColorHovering.cs" />
     <Compile Include="Assets\Scripts\Menu\Menu.cs" />
-    <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
+    <Compile Include="Assets\Scripts\Player\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
