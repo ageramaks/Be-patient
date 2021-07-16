@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update() 
     {
         _movement.x = Input.GetAxisRaw("Horizontal");
-        _movement.y = Input.GetAxisRaw("Vertical");
+        _movement.y = Input.GetAxisRaw("Vertical"); 
     }
 
     private void FixedUpdate() 
