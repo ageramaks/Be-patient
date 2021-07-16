@@ -1,14 +1,12 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class InfoPanel: MonoBehaviour
+public class InfoPanel : MonoBehaviour
 {
-    [SerializeField]private Sprite _picture;
+    public void ChangeOfState(GameObject _gameObject)
+    {
+        _gameObject.gameObject.SetActive(!_gameObject.gameObject.activeSelf);
+    }
 
-    private static Text _panelText;
-    public static Text AddText{ set { _panelText = value; }}
- 
 }

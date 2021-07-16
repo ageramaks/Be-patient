@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 using UnityEngine;
+using UnityEngine.Events;
 
-public class SkipDay : MonoBehaviour
+public class Bed : MonoBehaviour
 {
     [SerializeField] GameObject _backGroundAnim;
     [SerializeField] private Text _dayCanvas;
 
-    public delegate void Skip(int dayCount);
+    public UnityEvent SkipDay;
     private void OnMouseDown()
     {
         if (Menu.ClickAble)

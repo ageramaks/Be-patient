@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8728836274197213348}
   - component: {fileID: 9059746799091260489}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138303538087307488}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.42, y: 1.16, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -86,15 +86,87 @@ Tilemap:
   m_Enabled: 1
   m_Tiles: {}
   m_AnimatedTiles: {}
-  m_TileAssetArray: []
-  m_TileSpriteArray: []
-  m_TileMatrixArray: []
-  m_TileColorArray: []
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 0
+    m_Data:
+      e00: -1.084227e-19
+      e01: 1.2893644e+22
+      e02: 1.2892653e+22
+      e03: 1.2892653e+22
+      e10: 4.57e-43
+      e11: 4.9e-44
+      e12: 4.9e-44
+      e13: 4.9e-44
+      e20: -6.8978503e-12
+      e21: -2.435818e-17
+      e22: 6.951664
+      e23: -2.435818e-17
+      e30: 4.5904e-41
+      e31: 4.57e-43
+      e32: 4.57e-43
+      e33: 4.57e-43
+  m_TileColorArray:
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -1.3637727e-18, g: -1.3637727e-18, b: -1.3637727e-18, a: -1.3637727e-18}
+  - m_RefCount: 0
+    m_Data: {r: -8.697268e-18, g: -8.697268e-18, b: -8.697268e-18, a: -8.697268e-18}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
+  m_Origin: {x: -6, y: -1, z: 0}
+  m_Size: {x: 8, y: 3, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -124,7 +196,7 @@ TilemapRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -162,7 +234,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &-4427122955384598090
+--- !u!114 &5456388638560527187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
