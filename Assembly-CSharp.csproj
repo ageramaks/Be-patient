@@ -36,27 +36,30 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Attributes\ColorHovering.cs" />
-     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\Fridge\FridgeCell.cs" />
-     <Compile Include="Assets\Scripts\Player\Test.cs" />
-     <Compile Include="Assets\Scripts\Menu\Menu.cs" />
-     <Compile Include="Assets\Scripts\Fridge\Item.cs" />
-     <Compile Include="Assets\Scripts\PC\Store.cs" />
-     <Compile Include="Assets\Scripts\InfoPanel.cs" />
-     <Compile Include="Assets\Scripts\Attributes\PlayerPref.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\PC\PC.cs" />
-     <Compile Include="Assets\Scripts\Fridge\Fridge.cs" />
-     <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
-     <Compile Include="Assets\Scripts\VahtershaBossFight\staryxarp.cs" />
-     <Compile Include="Assets\Scripts\VahtershaBossFight\Spawns.cs" />
-     <Compile Include="Assets\Scripts\VahtershaBossFight\EnemyMove.cs" />
-     <Compile Include="Assets\Scripts\VahtershaBossFight\Person.cs" />
-     <Compile Include="Assets\Scripts\Notebook.cs" />
-     <Compile Include="Assets\Scripts\TasksPanel.cs" />
-     <Compile Include="Assets\Scripts\Attributes\Bed.cs" />
-     <Compile Include="Assets\Scripts\NewsPanel.cs" />
+
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Fridge\FridgeCell.cs" />
+    <Compile Include="Assets\Scripts\PC\Store.cs" />
+    <Compile Include="Assets\Scripts\Attributes\PlayerPref.cs" />
+    <Compile Include="Assets\Scripts\Notebook.cs" />
+    <Compile Include="Assets\Scripts\Fridge\Item.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Attributes\Bed.cs" />
+    <Compile Include="Assets\Scripts\Fridge\Fridge.cs" />
+    <Compile Include="Assets\Scripts\PC\PC.cs" />
+    <Compile Include="Assets\Scripts\Attributes\ColorHovering.cs" />
+    <Compile Include="Assets\Scripts\Player\Test.cs" />
+    <Compile Include="Assets\Scripts\Menu\Menu.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
+    <Compile Include="Assets\Scripts\InfoPanel.cs" />
+    <Compile Include="Assets\Scripts\TasksPanel.cs" />
+    <Compile Include="Assets\Scripts\NewsPanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+
     <Reference Include="UnityEngine">
         <HintPath>D:/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
