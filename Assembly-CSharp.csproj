@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\Menu\NextButton.cs" />
     <Compile Include="Assets\BossFightMinigame\Srcipts\Enemy.cs" />
     <Compile Include="Assets\BossFightMinigame\Srcipts\AttackButton.cs" />
+    <Compile Include="Assets\BossFightMinigame\Srcipts\Boss.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
