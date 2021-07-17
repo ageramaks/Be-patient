@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System.Collections;
 
@@ -16,5 +17,6 @@ public class AttackButton : MonoBehaviour
         yield return new WaitForSeconds(6);
         _AttackButton.SetActive(true);
         StopCoroutine(ButtonActive());
+
     }
 }
