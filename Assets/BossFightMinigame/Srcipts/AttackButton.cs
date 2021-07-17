@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class AttackButton : MonoBehaviour
 {
-    
+    private void Start()
+    {
+       
+        Boss.ReduceHp(1);
+    }
 }

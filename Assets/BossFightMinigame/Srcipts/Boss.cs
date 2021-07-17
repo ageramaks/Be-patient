@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static int _hp = 100;
 
-    // Update is called once per frame
-    void Update()
+    public static void ReduceHp(int value)
     {
-        
+        _hp -= value;
     }
 }

@@ -15,6 +15,8 @@ public class Notebook: MonoBehaviour
  
     public void OpenNotebookPanel()
     {
+        Debug.Log("work");
         _infoPanel.gameObject.SetActive(!_infoPanel.gameObject.activeSelf);
     }
+
 }
